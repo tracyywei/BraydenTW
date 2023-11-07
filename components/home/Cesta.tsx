@@ -12,7 +12,10 @@ function Cesta() {
         <span className="heroShiny1 text-fun-pink"><b>Police Militarization Data</b></span>
         </h1>
         <p className="text-black text-xl sm:text-2xl max-w-3xl m-auto">
-        Understanding police militarization quantatiatively and empathetically
+          Understanding police militarization quantatiatively and empathetically
+        </p>
+        <p className="text-fun-gray text-lg sm:text-lg max-w-3xl m-auto">
+          <br/>January - June 2023
         </p>
         <img
             className="w-8/12 rounded-3xl mx-auto mt-6"
@@ -34,7 +37,7 @@ function Cesta() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto mb-8 relative">
         <b><span className="heroShiny1 text-fun-pink">🔮 Overview</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto text-left">
+        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto ml-5 text-left">
         A web app and data project by the Stanford Know Systemic Racism Project, with partners American Friends Service Committee (AFSC) and Electronic Frontier Foundation (EFF)
         <br/><br/>As a research assistant for Know Systemic Racism, I built a wireframe and coded a web-based application that makes the military equipment inventory of California law enforcement agencies visible to legislators and citizens.
         </p>
@@ -60,17 +63,17 @@ function Cesta() {
          <b><span className="heroShiny1 text-fun-pink">🧩 Problem Space</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
             California State Assembly Bill 481 requires law enforcement agencies to post annual reports about the military equipment that they own.
             <br></br><br></br>
             <i>"The public has a right to know about any funding, acquisition, or use of military equipment by state or local government officials, as well as a right to participate in any government agency’s decision to fund, acquire, or use such equipment."</i>
             </p>
         </div>
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto">
+        <p className="text-black text-lg sm:text-xl max-w-3xl ml-5 m-auto">
           <span className="text-2xl"><br></br><b>But what exactly is this military equipment and what is it used for?</b></span>
         </p>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
             <br/>This web app is intended to make it easier for the public to understand.
           </p>
         </div>
@@ -84,7 +87,7 @@ function Cesta() {
          <b><span className="heroShiny1 text-fun-pink">💡 Ideation</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
           As an intern brought on to this existing project, I was tasked with designing a wireframe in Figma for the web application, which would be used as a foundation for the rest of the project. 
           <br/><br/>I was given the following product requirements that I turned into features in the wireframe:
           <br/><br/> • Visualize police military equipment → <b>A filterable and searchable gallery view of military equipment</b>
@@ -104,7 +107,7 @@ function Cesta() {
          <b><span className="heroShiny1 text-fun-pink">🚀 User Flow</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
           <br/>To help the general public better understand military equipment, I took an approach that prioritized both quantitative evidence through data as well as empathy through the way in which I presented and visualized the data.
           </p>
         </div>

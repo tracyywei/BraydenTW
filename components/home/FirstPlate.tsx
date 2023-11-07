@@ -14,6 +14,9 @@ function FirstPlate() {
         <p className="text-black text-xl sm:text-2xl max-w-3xl m-auto">
           A food-inspired dating app prioritizing in-person interaction
         </p>
+        <p className="text-fun-gray text-lg sm:text-lg max-w-3xl m-auto">
+          <br/>February 2023
+        </p>
         <img
             className="w-8/12 rounded-3xl mx-auto mt-6"
             src="/static/projects/firstplate-cover.png"
@@ -34,7 +37,7 @@ function FirstPlate() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto mb-8 relative">
         <b><span className="heroShiny1 text-fun-pink">🔮 Overview</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto">
+        <p className="text-black text-lg sm:text-xl max-w-3xl ml-5 m-auto">
         Built within 48 hours at a hackathon, First Plate is a food-inspired dating app that <b>gets rid of the friction in the messaging stage of dating apps</b>.
         </p>
         <div className="flex flex-row justify-center">
@@ -58,11 +61,11 @@ function FirstPlate() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto mb-8 relative">
          <b><span className="heroShiny1 text-fun-pink">🧩 Problem Space</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto">
-          <span className="text-2xl">How can we help users transition past the “talking stage” of dating apps and facilitate in-person interactions?</span>
+        <p className="text-black text-lg sm:text-xl max-w-3xl ml-5 m-auto">
+          <span className="text-2xl"><b>How can we help users transition past the “talking stage” of dating apps and facilitate in-person interactions?</b></span>
         </p>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
             <br/>First Plate was inspired by the idea that food can bring people together. Many people struggle with finding the perfect restaurant for a first date, which can cause stress and anxiety. By matching users with restaurants, First Plate eliminates the guesswork and allows users to focus on connecting with their potential partner over a shared culinary experience. In addition, food is a topic that many people are passionate about, so a food-based dating app can help users form deeper connections and potentially find a long-lasting relationship. After all- the stomach is the way to the heart.
           </p>
         </div>
@@ -75,7 +78,7 @@ function FirstPlate() {
          <b><span className="heroShiny1 text-fun-pink">💡 Ideation</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
             Introducing First Plate, a new dating app that will change the way you connect with potential partners - by matching you with restaurants! Our app takes into account your preferences for cuisine location, along with your dating preferences such as age, interests, and more. 
             <br/><br/>With our app, you'll be able to swipe through restaurant options that align with your preferences and match with potential partners who share your taste in food and atmosphere. Imagine being able to impress your date with a reservation at a restaurant that you both love, or discovering new culinary experiences together. 
                   Not only does our app provide a fun and innovative way to connect with people, but it also takes the stress out of planning a first date by automatically placing reservations at a compatible restaurant. No more agonizing over where to go or what to eat - our app does the work for you.
@@ -142,7 +145,7 @@ function FirstPlate() {
          <b><span className="heroShiny1 text-fun-pink">🪞 Reflection</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
           We feel extremely proud of having coded First Plate as React Native beginners. Building this app meant learning a new programming language, developing a deep understanding of software development principles, and having a clear understanding of what the app is intended to do. We were able to translate an initial Figma design into a React Native app, creating a user-friendly, colorful, and bright interface. Beyond the frontend design, we learned how to create a login and sign-up page, securely connected to the Supabase backend, and integrated the Checkbook API for the "pay it forward" feature. Both of these features were also new to our team. Along the way, we encountered many React Native bugs, which were challenging and time-consuming to debug as a beginner team. We implemented front-end design features such as scroll view, flexbox, tab and stack navigation, a unique animation transition, and linking pages using a navigator, to create a seamless and intuitive user experience in our app. We are proud of our teamwork, determination, and hard work that culminated in a successful project.
           </p>
         </div>
