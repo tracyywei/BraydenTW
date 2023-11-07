@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { skills } from "@/data/content/home";
 
 function Hero() {
   return (
@@ -20,19 +21,42 @@ function Hero() {
           <p className="text-xl mb-5">👩🏻‍🎓 Studying Computer Science and Design at Stanford
           </p>
           <br></br>
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-            Tell me more
-          </div>
-          <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  width="26"
-                  title="React"
-                />
-                <span className="sr-only">React</span>
-              </span>
+          <div className="flex flex-col md:flex-row justify-between relative">
+            <h2 className="relative text-3xl w-full text-center md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 ">
+              Skills
+            </h2>
+            <div className="relative max-w-lg w-full mx-auto md:mx-none grid gap-x-8 gap-y-12 sm:gap-8 md:gap-12 grid-cols-3 sm:grid-cols-6 items-center place-content-center">
+              {skills.map((item, index) => {
+                return (
+                  <div
+                    title={item.title}
+                    key={index}
+                    className="w-10 mx-auto flex items-center flex-col justify-center"
+                  >
+                    <img src={item.icon} style={item.style} />
+                    <p className="text-xs text-fun-gray font-bold mt-3 opacity-80">
+                      {item.title}
+                    </p>
+                  </div>
+                );
+              })}
             </div>
+          </div>
+          <br/><br/>
+      <div className="flex flex-row justify-between">
+            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full  bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+              email ↗
+            </div>
+            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+              linkedin ↗
+            </div>
+            <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+              resume ↗
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row justify-between relative">
+          <br></br>
+      </div>
       </div>
     </>
   );

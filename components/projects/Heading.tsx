@@ -22,18 +22,21 @@ function Heading({ tag }: HeadingProps) {
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
           Projects
-          <img
-            className="sqD w-10 -top-8 -right-8 absolute"
-            src="/static/doodles/hero/code.svg"
-          />
         </h1>
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool apps and websites using anything from HTML to React
-          (and even PHP!). Here are some of my favorite projects over the course
-          of my journey.
+          From these projects, I've learned how to:
         </p>
+        
+      )}
+      {!tag && (
+        <p className="text-fun-gray text-xl sm:text-xl max-w-3xl m-auto text-left">
+        <br></br>- creating wireframes, prototypes, and low-fidelty to high-fidelity design
+        <br></br>- test and rapidly iterate based on user feedback
+        <br></br>- collaborate with cross-functional teams on designs
+        <br></br>- & conduct user research to gather insights and inform design decisions
+    </p>
       )}
     </div>
   );

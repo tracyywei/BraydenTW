@@ -1,4 +1,3 @@
-import Footer from "../global/Footer";
 import Head from "next/head";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
@@ -7,8 +6,8 @@ import React, { ReactChildren } from "react";
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Brayden Wright - Web Developer, Designer, Creator."
-      : `${currentPage} - BraydenTW.io`
+      ? "Tracy Wei - Design, Product, and Engineering."
+      : `${currentPage} - TracyWei.io`
   }`;
   console.log(currentPage);
   return (
