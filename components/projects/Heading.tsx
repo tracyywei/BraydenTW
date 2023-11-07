@@ -21,7 +21,7 @@ function Heading({ tag }: HeadingProps) {
         </>
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
-          Projects
+          💡 Projects
         </h1>
       )}
       {!tag && (
