@@ -17,3 +17,13 @@ export const routes: Route[] = [
     path: "/projects",
   },
 ];
+
+import BottlePage from "pages/bottle";
+
+export const projRoutes = [
+  {
+    path: "/pages/bottle",
+    component: BottlePage,
+  },
+  // Other routes...
+];

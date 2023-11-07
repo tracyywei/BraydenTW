@@ -7,6 +7,7 @@ const projects: Project[] = [
     title: "Bottle (work in progress)",
     desc: "A social app for long-distance loved ones",
     img: "/static/projects/bottle-cover.png",
+    pagelink: "pages/bottle",
     link: "https://web.stanford.edu/class/cs147/projects/PreservingthePast/Bottle/",
     tags: ["React Native", "Figma"],
   },

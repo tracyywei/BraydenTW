@@ -45,13 +45,13 @@ function Hero() {
           <br/><br/>
       <div className="flex flex-row justify-between">
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full  bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-              email ↗
+              <a href="mailto:tracywei@stanford.edu">email ↗</a>
             </div>
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-              linkedin ↗
+              <a href="https://www.linkedin.com/in/tracy-wei">linkedin ↗</a>
             </div>
             <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-              resume ↗
+              <a href="https://drive.google.com/file/d/1-lPCohWWUw_-ErLahxC6aWKv2vn43buT/view?usp=sharing">resume ↗</a>
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between relative">

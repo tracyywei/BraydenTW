@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { kebabCase } from "@/utils/utils";
 import Link from "next/link";
+import { projRoutes } from "@/data/global";
 
 function ProjectCard({ project }) {
   return (
@@ -10,7 +11,7 @@ function ProjectCard({ project }) {
       key={project.id}
     >
       <a
-        href={project.link || project.github}
+        href={project.pagelink}  
         target="_blank"
         className={`w-full relative rounded-xl border-fun-gray border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard`}
       >
