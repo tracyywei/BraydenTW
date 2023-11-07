@@ -4,7 +4,7 @@ import Page from "@/components/utility/Page";
 
 export default function BottlePage() {
   return (
-    <Page currentPage="BottlePage" meta={{ desc: "A social app for long-distance loved ones" }}>
+    <Page currentPage="Bottle" meta={{ desc: "A social app for long-distance loved ones" }}>
       <Bottle />
     </Page>
   );

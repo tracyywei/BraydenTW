@@ -19,11 +19,20 @@ export const routes: Route[] = [
 ];
 
 import BottlePage from "pages/bottle";
+import FirstPlatePage from "pages/firstplate";
+import CestaPage from "pages/cesta";
 
 export const projRoutes = [
   {
-    path: "/pages/bottle",
+    path: "/bottle",
     component: BottlePage,
   },
-  // Other routes...
+  {
+    path: "/firstplate",
+    component: FirstPlatePage,
+  },
+  {
+    path: "/cesta",
+    component: CestaPage,
+  },
 ];
