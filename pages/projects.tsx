@@ -12,7 +12,6 @@ function projects() {
     >
       <Heading />
       <Projects />
-      <More />
     </Page>
   );
 }

@@ -1,10 +1,8 @@
-import CTA from "@/components/home/CTA";
 import Hero from "@/components/home/Hero";
 import Page from "@/components/utility/Page";
 // import Posts from "@/components/home/Posts";
 import Projects from "@/components/home/Projects";
 import Skills from "@/components/home/Skills";
-import Testimonials from "@/components/home/Testimonials";
 // import { allPosts } from "contentlayer/generated";
 // import { GetStaticProps } from "next";
 
@@ -23,10 +21,8 @@ export default function Home() {
       <div className="mt-20 space-y-32">
         <Projects />
         <Skills />
-        <Testimonials />
         {/* <Posts allPosts={allPosts} /> */}
       </div>
-      <CTA />
     </Page>
   );
 }
