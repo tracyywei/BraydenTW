@@ -17,7 +17,6 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
     >
       <Head>
         <title>{pageTitle}</title>
-        <link rel="manifest" href="/static/favicon/site.webmanifest" />
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
 
