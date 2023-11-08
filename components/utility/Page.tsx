@@ -16,6 +16,13 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
       style={{ maxWidth: "1200px" }}
     >
       <Head>
+        <title>{pageTitle}</title>
+        <link rel="manifest" href="/static/favicon/site.webmanifest" />
+        <meta name="title" content={pageTitle} />
+        <meta name="description" content={desc} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tracywei.vercel.app" />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
