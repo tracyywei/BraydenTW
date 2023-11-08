@@ -25,13 +25,13 @@ function Heading({ tag }: HeadingProps) {
         </h1>
       )}
       {!tag && (
-        <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
+        <p className="text-fun-white text-xl sm:text-2xl max-w-3xl m-auto">
           From these projects, I've learned how to:
         </p>
         
       )}
       {!tag && (
-        <p className="text-fun-gray text-xl sm:text-xl max-w-3xl m-auto text-left">
+        <p className="text-fun-white text-xl sm:text-xl max-w-3xl m-auto text-left">
         <br></br>- creating wireframes, prototypes, and low-fidelty to high-fidelity design
         <br></br>- test and rapidly iterate based on user feedback
         <br></br>- collaborate with cross-functional teams on designs

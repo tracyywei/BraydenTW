@@ -3,11 +3,6 @@ type Skill = {
   icon: string,
   style?: object
 };
-type Testimonial = {
-  quote: string,
-  name: string,
-  job: string
-};
 
 
 export const skills: Skill[] = [

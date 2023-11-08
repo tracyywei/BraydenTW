@@ -37,7 +37,7 @@ function Bottle() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto mb-8 relative">
         <b><span className="heroShiny1 text-fun-pink">🔮 Overview</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl ml-5 m-auto text-left">
+        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto text-left">
           Bottle makes daily updates in long-distance relationships easy and engaging:
           <br/><br/>1) Users store “mundane” updates throughout their day (text, image, videos, etc.) to a bottle, in which
           <br/><br/>2) they exchange with a receiver’s, to be opened and shared at a set time, optionally over a video call, enriching conversations. The anticipation before opening creates engagement between the users.
@@ -65,30 +65,30 @@ function Bottle() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto mb-8 relative">
          <b><span className="heroShiny1 text-fun-pink">🧩 Problem Space</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto ml-5 text-left">
+        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto text-left">
               <span className="text-2xl"><br></br><b>Theme: Preserving the Past</b></span>
             </p>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
             <br/>
             New technologies allow us to preserve history more easily than ever. We can record our family’s stories for future generations to see and hear, snap pictures and share the memories with others, even visit historical sites without leaving our homes. In this studio, we will explore ways to capture and revive the past. How can we leverage digital capabilities to preserve and cherish our histories? How can we save our memories and cultures so they endure?
             </p>
         </div>
 
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto ml-5 text-left">
+        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto text-left">
               <span className="text-2xl"><br></br><b>Our Domain of Focus:</b></span>
         </p>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
             <br/>Long Distance Relationships (family, friends, and romantic relationships)
             </p>
         </div>
 
-        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto ml-5 text-left">
+        <p className="text-black text-lg sm:text-xl max-w-3xl m-auto text-left">
               <span className="text-2xl"><br></br><b>Selected Pain Point:</b></span>
         </p>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
             <br/>Busy lives and time-zone differences make it difficult for long-distance loved ones to share updates in real-time. During limited conversations, people have a hard time recounting little moments throughout their day, moments we believe are critical in maintaining emotional intimacy in relationships.
             </p>
         </div>
@@ -102,7 +102,7 @@ function Bottle() {
          <b><span className="heroShiny1 text-fun-pink">💡 Ideation</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
             To conduct needsfinding research, we interviewed 6 people from diverse backgrounds in various types of long-distance relationships.
           </p>
         </div>
@@ -119,7 +119,7 @@ function Bottle() {
          <b><span className="heroShiny1 text-fun-pink">💡 Empathy Map & Insights</span></b>
         </h1>
         <div className="flex flex-row justify-center">
-          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-left">
+          <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-left">
             We chose 3 of our interviewees to create empathy maps for and eventually landed on Kevin's empathy map to focus on generating insights and needs:
             <br/> <span className="text-2xl"><br></br><b>Insight:</b></span>
             <br/> Time zone differences inhibit the feeling of connectedness as couples struggle to catch each other up on big events.
@@ -158,7 +158,7 @@ function Bottle() {
         <h1 className="text-white text-4xl sm:text-3xl inline-block w-auto mx-auto relative">
          <b><span className="heroShiny1 text-fun-pink">⚒️ Under construction</span></b>
         </h1>
-        <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 ml-5 text-center">
+        <p className="text-black text-lg sm:text-xl max-w-3xl mr-8 text-center">
           <br/>For more details, please visit this updated website:
         </p>
         <div className="w-fit mx-auto mt-5 cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white text-xl rounded-full  bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
