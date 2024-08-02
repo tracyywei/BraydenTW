@@ -16,9 +16,7 @@ function Hero() {
         </h1>
         <p className="text-2xl mb-5">I enjoy <span className="heroShiny2 text-fun-pink">designing</span> and <span className="heroShiny2 text-fun-pink">building</span> experiences with tech.
           </p>
-          <p className="text-xl mb-5">📍 Palo Alto, CA
-          </p>
-          <p className="text-xl mb-5">👩🏻‍🎓 Studying Computer Science and Design at Stanford
+          <p className="text-xl mb-5">👩🏻‍🎓 Studying Symbolic Systems at Stanford
           </p>
           <br></br>
           <div className="flex flex-col md:flex-row justify-between relative">
